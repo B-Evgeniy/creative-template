@@ -1,0 +1,322 @@
+// @media for header section
+@media (max-width: 968px) {
+    .menu_title-link {
+        font-size: 1rem;
+    }
+    .menu_title-inner {
+        margin-right: 20px;
+    }
+    .menu_social-link {
+        font-size: 1rem;
+    }
+    .menu_social-inner:not(:last-of-type) {
+        margin-right: 10px;
+    }
+}
+@media (max-width: 880px) {
+    .header_title {
+        margin: 280px auto 0 auto;
+        &-top {
+            font-size: 7rem;
+        }
+        &-bottom {
+            font-size: 0.9rem;
+            letter-spacing: 10px;
+        }
+    }
+}
+@media (max-width: 692px) {
+    .menu_title-inner {
+        margin-right: 10px;
+    }
+    .menu_social-inner:not(:last-of-type) {
+        margin-right: 5px;
+    }
+    .header_title {
+        margin: 300px auto 0 auto;
+        &-top {
+            font-size: 6rem;
+        }
+        &-bottom {
+            font-size: 0.8rem;
+            letter-spacing: 8px;
+            margin-bottom: 135px;
+        }
+    }
+}
+@media (max-width: 610px) {
+    .menu_title-wrapper {
+        display: none;
+    }
+    .menu_burger {
+        display: block;
+    }
+}
+@media (max-width: 560px) {
+    .header_title {
+        margin: 300px auto 0 auto;
+        &-top {
+            font-size: 5rem;
+        }
+        &-bottom {
+            font-size: 0.7rem;
+            letter-spacing: 6px;
+            margin-bottom: 160px;
+        }
+    }
+}
+@media (max-width: 478px) {
+    .header_title {
+        margin: 300px auto 0 auto;
+        &-top {
+            font-size: 4rem;
+        }
+        &-bottom {
+            font-size: 0.7rem;
+            letter-spacing: 5px;
+            margin-bottom: 175px;
+        }
+    }
+}
+@media (max-width: 410px) {
+    .header_title {
+        margin: 300px auto 0 auto;
+        &-top {
+            font-size: 3rem;
+        }
+        &-bottom {
+            font-size: 0.5rem;
+            letter-spacing: 4px;
+            margin-bottom: 200px;
+        }
+    }
+}
+
+// @media for agency section
+
+@media (max-width: 768px) {
+    .agency_feature {
+        flex-wrap: wrap;
+        justify-content: center;
+        &-item {
+            max-width: 250px;
+            margin: 0 25px;
+        }
+    }
+}
+@media (max-width: 630px) {
+    .agency_feature-item {
+        margin: 0;
+    }
+}
+@media (max-width: 530px) {
+    .agency_feature {
+        padding-bottom: 60px;
+        &-item {
+            max-width: 300px;
+        }
+    }
+}
+@media (max-width: 435px) {
+    .agency_title {
+        font-size: 2rem;
+        padding-top: 150px;
+        padding-bottom: 110px;
+    }
+}
+
+// @media for working section
+
+@media (max-width: 960px) {
+    .working_wrapper {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "a1"
+            "a2"
+            "a4"
+            "a3";
+    }
+    .inner {
+        &__left {
+            float: none;
+            margin: 0 auto;
+        }
+        &__right {
+            margin: 0 auto;
+        }
+    }
+    .working_items {
+        &-date {
+            padding-top: 35px;
+        }
+        &-text {
+            & p + p {
+                padding-bottom: 35px;
+            }
+        }
+    }
+}
+@media (max-width: 520px) {
+    .working_items {
+        &-date {
+            line-height: 1.1em;
+            padding-top: 25px;
+        }
+        &-title {
+            line-height: 1.1em;
+            font-weight: 700;
+            padding-bottom: 20px;
+        }
+        &-text {
+            line-height: 1.1em;
+            & p + p {
+                padding-top: 15px;
+                padding-bottom: 25px;
+            }
+        }
+    }
+}
+
+// @media for blog section
+
+@media (max-width: 1150px) {
+    .blog_gallery {
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 60px;
+        &-item {
+            max-width: 40%;
+        }
+        &-link {
+            margin: 0 auto;
+        }
+        &-text {
+            margin-bottom: 20px;
+            padding-left: 50px;
+            padding-right: 50px;
+        }
+    }
+    .blog_bottom {
+        &-wrapper {
+            display: block;
+            padding: 50px 0 75px 0;
+        }
+        &-item {
+            margin: 20px auto;
+        }
+    }
+}
+@media (max-width: 880px) {
+    .blog_gallery-text {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .blog_text{
+        font-size: 1.6rem;
+    }
+}
+@media (max-width: 748px) {
+    .blog_gallery {
+        display: block;
+        &-item{
+        min-width: 100%;
+    }
+}
+}
+@media (max-width: 590px) {
+    .bottom-item--text{
+        padding-left: 75px;
+        font-size: 0.8rem;
+    }
+}
+@media (max-width: 460px) {
+    .bottom-item--text{
+      line-height: 1.2em;
+    }
+}
+
+// @media for creative section
+
+@media (max-width: 1020px) {
+    .creative_item-phone {
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 922px) {
+       .creative_wrapper {
+           flex-direction: column-reverse;
+       }
+       .creative_item {
+           &-title{
+               text-align: center;
+           }
+           &-phone{
+           margin-bottom: 40px;
+            }
+            &-btn{
+                text-align: center;
+                padding: 12px 18px;
+            }
+    }
+    .btn{
+        &--1{
+            width: 100%; 
+        }
+        &--2{
+            width: 100%; 
+        }
+        &--3{
+            width: 100%; 
+        }
+    }
+}
+@media (max-width: 562px) {
+    .creative_item-text {
+        font-size: 0.8rem;
+        line-height: 1.3em;
+        font-weight: 400;
+        margin-bottom: 30px;
+        letter-spacing: 1px;
+    }
+}
+
+// @media for about section
+
+@media (max-width: 1130px) {
+    .about_team {
+       flex-wrap: wrap;
+       justify-content: center;
+     
+       &-item {
+        min-width: 45%;
+        margin-bottom: 40px;
+               }
+        &-frame {
+           text-align: center;
+        }
+}
+}
+@media (max-width: 840px) {
+    .about_form-title {
+        font-size: 1.75rem;
+    }
+}
+@media (max-width: 768px) {
+    .about_text {
+        font-size: 1.5rem;
+    }
+    .about_form-group{
+        display: block;
+        }
+    .inputs-group{
+        width: 100%;
+        margin-bottom: 25px;
+    }
+}
+
+@media (max-width: 648px) {
+    .about_team {
+        display: block;
+    }
+}

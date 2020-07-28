@@ -1,0 +1,96 @@
+.blog_title {
+    margin-top: 160px;
+    margin-bottom: 114px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2.375rem;
+    line-height: 1.184em;
+    color: #222222;
+    position: relative;
+    &:after {
+        content: url(../images/B.png);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -48%);
+    }
+}
+
+.blog_text {
+    font-size: 1.875rem;
+    line-height: 1.23em;
+    color: #222222;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 74px;
+    padding: 0 15px;
+}
+
+.blog_gallery {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+    &-box {
+        margin-bottom: 35px;
+    }
+    &-link {
+        display: block;
+        overflow: hidden;
+        max-width: 270px;
+        &:hover .blog_gallery-image {
+            transform: scale(1.2);
+        }
+    }
+    &-image {
+        transition: all 0.4s;
+    }
+    &-title {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    &-title--link {
+        color: #11749e;
+        font-size: 1.125rem;
+        line-height: 2em;
+        text-transform: uppercase;
+        transition: all 0.3s;
+        &:hover{
+           font-weight: 700;
+           text-shadow: 0 0 5px #82f3ea;
+                }
+    }
+    &-text {
+        text-align: center;
+        font-size: 0.9375rem;
+        line-height: 1.6em;
+        color: #222222;
+        padding: 0 20px 0 10px;
+        margin-bottom: 100px;
+    }
+}
+
+.blog_bottom {
+    background-color: #11749e;
+   &-wrapper{
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       padding: 100px 0 150px 0;
+   }
+   &-item{
+       max-width: 578px;
+   }
+}
+.bottom-item--text {
+    font-size: 0.9375rem;
+    line-height: 1.6em;
+    padding-left: 100px;
+    position: relative;
+    &:before{
+        content: url(../images/Write_big.png);
+        position: absolute;
+        top: 5px;
+        left: 0;
+    }
+}
