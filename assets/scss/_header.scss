@@ -81,7 +81,7 @@
 }
 
 .header_title {
-    margin: 240px auto 0 auto;
+    margin: calc(100vh / 4) auto 0 auto;
     text-align: center;
     text-transform: uppercase;
     &-top {
@@ -98,7 +98,7 @@
         color: #11749e;
         letter-spacing: 16px;
         line-height: 1em;
-        margin-bottom: 108px;
+        margin-bottom: calc(100vh / 8);
     }
 }
 
